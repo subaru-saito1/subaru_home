@@ -1,0 +1,14 @@
+@charset="utf-8";
+
+body {
+  background-color: #ccffcc;
+}
+
+span.timeplace {
+  font-size: small;
+  font-family: monospace;
+}
+
+div.modoru {
+  background-color: #ffcccc;
+}

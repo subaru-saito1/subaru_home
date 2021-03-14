@@ -1,0 +1,33 @@
+@charset="utf-8";
+
+body {
+  width: 700px;
+  margin: 10px auto;
+}
+
+div#syoukai_box {
+  border: solid 2px #112233;
+  border-radius: 5px;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;  /* 横の配置設定（いい感じに）*/
+  align-items: flex-start;        /* 縦の配置設定（上詰め）*/
+}
+
+table {
+  border: solid 3px #000000;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #00ffff;
+  border: solid 3px #000000;
+  padding: 10px;
+}
+
+td {
+  padding: 5px 10px;
+  background-color: #ccffdd;
+  border: solid 1px #000000;
+  text-align: center;
+}

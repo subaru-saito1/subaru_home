@@ -1,0 +1,39 @@
+@charset="utf-8";
+
+body {
+  width: 700px;
+  margin: 10px auto;
+}
+
+
+div#main {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-content: space-between;
+}
+
+div#main article {
+  border: solid 2px #663311;
+  border-radius: 7px;
+  margin: 5px 10px;
+  padding: 5px;
+}
+
+div#main article h2 {
+  margin-top: 0px;
+}
+div#main article p.date {
+  color: #0000ff;
+  font-family: monospace;
+}
+div#main article ul {
+  list-style: none;
+  margin: 3px;
+  padding: 0px;
+}
+div#main article p.zaregoto {
+  font-size: small;
+}
+
+
