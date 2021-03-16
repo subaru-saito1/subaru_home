@@ -1,11 +1,26 @@
-@charset="utf-8";
+@charset "utf-8";
 
 body {
   width: 700px;
   margin: 10px auto;
 }
 
+/* テーブルレイアウト */
+table {
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid black;
+  padding: 5px 10px;
+}
+th {
+  padding: 10px 10px;
+  background-image: linear-gradient(#cccccc, #ffffff);
+}
 
+
+
+/* 旧一日一新日記用 */
 div#main {
   display: flex;
   flex-flow: column;

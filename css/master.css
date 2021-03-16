@@ -1,14 +1,11 @@
 @charset="utf-8";
 
 body {
-  background-color: #ffffff;
+  background-image: linear-gradient(#ccffff, #ffffff);
+  min-height: 100vh;
 }
 
-span.timeplace {
+.timeplace {
   font-size: small;
   font-family: monospace;
-}
-
-div.modoru {
-  background-color: #FFFFFF;
 }
